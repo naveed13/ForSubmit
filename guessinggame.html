@@ -1,0 +1,18 @@
+<script>
+confirm("This is a guessing game!");
+var guess=prompt("Please guess the present international oil price(WTI $/Barrel)"),
+answer=48;
+
+if (guess===answer){
+	alert("You are right!");
+}
+else if (guess>answer){
+	alert("Make the number smaller and refresh to try again");
+} else if(guess<answer){
+	alert("Make the number bigger and refresh to try again");
+}
+else {
+alert("Please insert a number!")
+}
+
+</script>
